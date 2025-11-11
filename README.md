@@ -39,4 +39,4 @@ mvn compile exec:java -Dexec.mainClass="com.example.Main"
 Le Jenkinsfile contient un pipeline simple avec 3 étapes :
 - Build : Compilation du code
 - Package : Création du JAR
-- Run : Exécution du Hello World
+- Run : Exécution du Hello World 
