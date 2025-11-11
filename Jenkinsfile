@@ -26,7 +26,7 @@ pipeline {
         stage('Run') {
             steps {
                 echo 'Exécution du programme...'
-                sh 'java -cp target/hello-world-1.0.jar main.java.com.Main'
+                sh 'java -cp target/hello-world-1.0.jar com.example.Main'
             }
         }
     }
